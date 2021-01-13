@@ -1,0 +1,173 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
+}
+
+.welcome-logo  {
+  width: 8.5rem;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+
+.home-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14rem;
+  margin-left: 10rem;
+  width: 65%;
+}
+.title {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  display: block;
+}
+
+.description {
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+.button-home {
+  width: 20%;
+  border: none;
+  border-radius: 25px;
+  padding: 1rem;
+  background-color: #FC6C5F;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background: linear-gradient(to right, #370a80 20%, #072b9d 100%);
+  background-size: cover; 
+}
+
+.login-title {
+  font-size: 1.8rem;
+  margin-top: 21rem;
+  align-self: flex-start;
+  color: #fff;
+  margin-left: 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 69%;
+  color: #fff;
+  margin-left: 5rem;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+}
+
+.forgot-password {
+  margin-left: 67px;
+  color: white;
+}
+
+input.input {
+  background: none;
+  border: inherit;
+  border-bottom: 1px solid #ffffff;
+  outline: 0;
+  padding: 1rem;
+  padding-left: 0;
+  font-size: 15px;
+  color: white!important;
+  margin-bottom: 1rem;
+
+}
+
+.login ::placeholder {
+  color: white;
+
+}
+
+.button-login {
+  width: 110px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #FC6C5F;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.account {
+  align-self: flex-start;
+}
+
+.sign-up {
+  color: white;
+}
+
+.description-forgot-password {
+  color: white;
+  margin-left: 5rem;
+  align-self: flex-start;
+}
+
+.button-cancel {
+  color: #ffffff;
+}
+
+.forgot-buttons {
+  align-self: flex-start;
+}
+
+.button-login {
+  margin-right: 10px;
+}
+
+.email-box {
+  display: flex;
+  flex-direction: column;
+  width: 69%;
+  color: grey;
+  margin-left: 5rem;
+}
+
+.description-forgot-sent {
+  align-self: flex-start;
+  color: white;
+  text-align: left;
+  font-size: 13px;
+}
+
+.icon-check {
+  margin-left: 10px;
+}
+
+.contact {
+  color: #fff;
+}
+
+.button-home {
+  width: 110px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #FC6C5F;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}

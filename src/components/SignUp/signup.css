@@ -1,0 +1,237 @@
+.signup {
+  width: 65%;
+  height: 100vh;
+  overflow: auto;
+}
+
+.disclaimer-risk {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 45%;
+  background: linear-gradient(to right, #370a80 20%, #072b9d 100%);
+  height: 100vh;
+}
+
+.form-signup {
+  margin-top: 9rem;
+  margin-left: 18rem;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  height: 100;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.input-signup {
+  width: 19rem;
+  background: none;
+  border: inherit;
+  border-bottom: 1px solid grey;
+  outline: 0;
+  padding: 1rem;
+  padding-left: 0;
+  font-size: 15px;
+  margin-bottom: 1rem;
+  font-family: 'Nunito', sans-serif!important;
+}
+
+.input-signup ::placeholder {
+  font-size: 12px;
+}
+
+
+.signup-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14rem;
+  margin-left: 10rem;
+  width: 65%;
+}
+
+.checkbox-form {
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.button-next, .button-send {
+  width: 100px;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  background-color: #FC6C5F;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+
+.buttons-signup {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: 18rem;
+  width: 20rem;
+  justify-content: space-between;
+}
+
+.button-signup {
+  border: none;
+  background-color: #e0e0e0;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.button-signup-active {
+  border: none;
+  background-color:#FC6C5F;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.button-signup:focus {
+  outline: none;
+}
+
+.label-signup {
+  color: grey; 
+  text-align: left;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.selects-signup {
+  margin-top: 1rem;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+}
+
+.select-signup {
+  color: grey;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-right: 1rem;
+  width: 6rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+
+select#country-of-residence {
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-top: 1rem;
+  width: 20rem;
+  color: grey;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+}
+
+.phone-number {
+  margin-top: 1rem;
+  width: 20rem;
+  color: grey;
+  justify-content: left;
+  display: flex;
+}
+
+.select-signup-phone {
+  width: 60px;
+  border: none;
+  border-bottom: 1px solid grey;
+  color: grey;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  margin-right: 1rem;
+  
+}
+
+.input-signup-phone {
+  width: 19rem;
+  background: none;
+  border: inherit;
+  border-bottom: 1px solid grey;
+  outline: 0;
+  padding: 1rem;
+  padding-left: 0;
+  font-size: 15px;
+  font-family: 'Nunito', sans-serif!important;
+}
+
+.button-next-secondstep {
+  width: 100px;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 25px;
+  padding: 12px;
+  background-color: #FC6C5F;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 1rem;
+  outline: none;
+}
+
+.signup-photo-box {
+  display: flex;
+  flex-direction: column;
+  width: 117px;
+}
+
+
+li {
+  list-style-type: none;
+  text-align: initial;
+  
+}
+
+.input-option {
+  margin-left: 2rem;
+}
+
+.section-left {
+  width: 26%;
+  vertical-align: baseline;
+  text-align: left;
+}
+
+.section-right {
+  width: 100%;
+  
+}
+
+.option {
+  font-size: 14px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+li.question.question-2 {
+  margin-top: 2rem;
+}
+
+.title-section {
+  margin-left: 3rem;
+  font-weight: bold;
+  font-size: 15px;
+}
